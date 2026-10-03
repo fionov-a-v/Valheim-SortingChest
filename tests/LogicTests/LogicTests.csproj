@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Те же файлы, что в моде: правила сортировки и процедурные текстуры рун (без Unity) -->
+    <Compile Include="../../src/Logic/SortRules.cs" Link="Mod/SortRules.cs" />
+    <Compile Include="../../src/Visuals/RuneArt.cs" Link="Mod/RuneArt.cs" />
+  </ItemGroup>
+</Project>
